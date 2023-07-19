@@ -58,6 +58,8 @@
 .online-game-container, .card-items{
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -82,6 +84,18 @@
   .container  {
     width: 100%;
     margin-top: 150px;
+}
+.footer-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+
+    
+}
+.importent-links{
+    align-items: center;
+    flex-direction: column-reverse;
+ 
 }
   }
 
@@ -113,15 +127,28 @@
             top: 55%;
             /* left: -153px; */
           }
+          .footer-container{
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%;
       }
-      
       .cat-img  {
         position: absolute;
         top: 55%;
         left: -153px;
       }
+      .link-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+        
+      }
+    }
+      
+     
       /* .container, .play_container {
         width: 580px;
         margin-top: 150px;
     } */
-}
