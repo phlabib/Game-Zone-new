@@ -1,0 +1,115 @@
+@media(max-width:425px){
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+.menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.memu-item{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+.banner-container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.banner-typo{
+    font-size: 3.5rem;
+}
+.banner-title{
+    font-size: 2rem;
+}
+.banner-text-container{
+    font-size: 10px;
+}
+
+
+.banner-text, .paragraphs, .banner-imgs{
+    width: 100%;
+
+
+}
+.game-container{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.game-img, .play-image-contianer{
+    width: 100%;
+  
+}
+.game-text{
+    text-align: center;
+    width: 100%;
+}
+.online-game-container, .card-items{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.online-game-container, .card-items, .play_container {
+    grid-template-columns: 1fr;
+}
+.container, .play_container {
+    width: 347px;
+    margin: auto;
+}
+.grid-container {
+    
+    grid-template-columns: 1fr;
+   
+  }
+  .play-details{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+  }
+
+
+
+  }
+
+
+@media(max-width:768px){
+    .nav-container{
+       width: 100%;}
+ 
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .online-game-containe, .card-items, .game-details, .play_container,.play-details {
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .play-img-items img{
+        .play-img-items img{
+            width: 100%;
+            height: 100%;
+          }
+          
+          .cat-img  {
+            position: absolute;
+            top: 55%;
+            /* left: -153px; */
+          }
+      }
+      
+      .cat-img  {
+        position: absolute;
+        top: 55%;
+        left: -153px;
+      }
+}
