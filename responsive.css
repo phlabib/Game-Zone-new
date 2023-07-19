@@ -2,6 +2,7 @@
 .nav-container{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .menus{
     display: flex;
@@ -39,9 +40,14 @@
 .game-container{
     flex-direction: column;
     margin-top: 10px;
+    width: 100%;
 }
 
 .game-img, .play-image-contianer{
+    width: 100%;
+  
+}
+.play-image-contianer{
     width: 100%;
   
 }
@@ -56,7 +62,7 @@
 }
 
 .online-game-container, .card-items, .play_container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fe);
 }
 .container, .play_container {
     width: 347px;
@@ -72,9 +78,13 @@
     flex-direction: column;
     padding: 36px;
   }
-
-
-
+  .link-container{
+    justify-content: center;
+  }
+  .container,  {
+    width: 100%;
+    margin-top: 150px;
+}
   }
 
 
@@ -112,4 +122,8 @@
         top: 55%;
         left: -153px;
       }
+      .container, .play_container {
+        width: 580px;
+        margin-top: 150px;
+    }
 }
